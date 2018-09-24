@@ -2,25 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6dc9559-fe80-42e7-b85c-d9c9c125bb1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_10_5_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_client_4_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_framework_4_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_recipes_4_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_yetus_audience_annotations_0_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CuratorOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CuratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MyCuratorWatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WatcherTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/zk-curator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/zk-curator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,7 +41,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="13" />
+          <entry key="java" value="19" />
           <entry key="properties" value="1" />
           <entry key="xml" value="3" />
         </counts>
@@ -62,20 +49,20 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="13" />
+          <entry key="JAVA" value="19" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="686" />
+          <entry key="java" value="864" />
           <entry key="xml" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="686" />
+          <entry key="JAVA" value="864" />
           <entry key="XML" value="29" />
         </counts>
       </usages-collector>
@@ -87,12 +74,14 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/CuratorTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/WatcherTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="148" column="37" selection-start-line="148" selection-start-column="37" selection-end-line="148" selection-end-column="37" />
+            <state relative-caret-position="516">
+              <caret line="59" column="40" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1339#1671#0" expanded="true" />
+                <element signature="e#1670#1671#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -118,6 +107,8 @@
         <option value="$PROJECT_DIR$/src/test/java/Curator.java" />
         <option value="$PROJECT_DIR$/src/main/java/CuratorOperator.java" />
         <option value="$PROJECT_DIR$/src/test/java/CuratorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MyCuratorWatcher.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WatcherTest.java" />
       </list>
     </option>
   </component>
@@ -257,22 +248,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CuratorTest.testReadchildNodes">
+  <component name="RunManager" selected="JUnit.WatcherTest.test2">
     <configuration name="CuratorTest.testAddNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="zk-curator" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CuratorTest" />
       <option name="METHOD_NAME" value="testAddNode" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CuratorTest.testDel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="zk-curator" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CuratorTest" />
-      <option name="METHOD_NAME" value="testDel" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -298,11 +279,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CuratorTest.testUpdateNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WatcherTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="zk-curator" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CuratorTest" />
-      <option name="METHOD_NAME" value="testUpdateNode" />
+      <option name="MAIN_CLASS_NAME" value="WatcherTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WatcherTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zk-curator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WatcherTest" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -310,18 +301,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.CuratorTest.testAddNode" />
-      <item itemvalue="JUnit.CuratorTest.testUpdateNode" />
-      <item itemvalue="JUnit.CuratorTest.testDel" />
       <item itemvalue="JUnit.CuratorTest.testRead" />
       <item itemvalue="JUnit.CuratorTest.testReadchildNodes" />
+      <item itemvalue="JUnit.WatcherTest.test" />
+      <item itemvalue="JUnit.WatcherTest.test2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WatcherTest.test2" />
+        <item itemvalue="JUnit.WatcherTest.test" />
         <item itemvalue="JUnit.CuratorTest.testReadchildNodes" />
         <item itemvalue="JUnit.CuratorTest.testRead" />
         <item itemvalue="JUnit.CuratorTest.testAddNode" />
-        <item itemvalue="JUnit.CuratorTest.testDel" />
-        <item itemvalue="JUnit.CuratorTest.testUpdateNode" />
       </list>
     </recent_temporary>
   </component>
@@ -335,20 +326,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1537794267451</updated>
-      <workItem from="1537794269049" duration="4799000" />
+      <workItem from="1537794269049" duration="6226000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CuratorTest_testStart - 2018.09.24 at 22h 04m 09s.xml">
-      <configuration name="CuratorTest.testStart" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CuratorTest_testStart - 2018.09.24 at 22h 16m 13s.xml">
-      <configuration name="CuratorTest.testStart" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CuratorTest_testAddNode - 2018.09.24 at 22h 22m 07s.xml">
-      <configuration name="CuratorTest.testAddNode" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CuratorTest_testUpdateNode - 2018.09.24 at 22h 30m 53s.xml">
       <configuration name="CuratorTest.testUpdateNode" configurationId="JUnit" />
     </history-entry>
@@ -370,9 +352,18 @@
     <history-entry file="CuratorTest_testReadchildNodes - 2018.09.24 at 22h 42m 05s.xml">
       <configuration name="CuratorTest.testReadchildNodes" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="WatcherTest_test - 2018.09.24 at 23h 04m 46s.xml">
+      <configuration name="WatcherTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WatcherTest_test - 2018.09.24 at 23h 05m 21s.xml">
+      <configuration name="WatcherTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WatcherTest_test2 - 2018.09.24 at 23h 14m 51s.xml">
+      <configuration name="WatcherTest.test2" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4799000" />
+    <option name="totallyTimeSpent" value="6226000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -388,7 +379,7 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" weight="0.26123303" />
       <window_info anchor="bottom" id="MyBatis Sql Log" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3291536" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291536" />
@@ -448,10 +439,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CuratorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="148" column="37" selection-start-line="148" selection-start-column="37" selection-end-line="148" selection-end-column="37" />
+        <state relative-caret-position="302">
+          <caret line="57" column="49" lean-forward="true" selection-start-line="54" selection-start-column="8" selection-end-line="57" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MyCuratorWatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WatcherTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="59" column="40" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1339#1671#0" expanded="true" />
+            <element signature="e#1670#1671#0" expanded="true" />
           </folding>
         </state>
       </provider>
