@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6dc9559-fe80-42e7-b85c-d9c9c125bb1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MyCuratorWatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/WatcherTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/zk-curator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/zk-curator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d6dc9559-fe80-42e7-b85c-d9c9c125bb1e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,13 +49,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="864" />
+          <entry key="java" value="892" />
           <entry key="xml" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="864" />
+          <entry key="JAVA" value="892" />
           <entry key="XML" value="29" />
         </counts>
       </usages-collector>
@@ -76,8 +69,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/WatcherTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="59" column="40" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
+            <state relative-caret-position="351">
+              <caret line="45" column="53" lean-forward="true" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1339#1671#0" expanded="true" />
@@ -326,14 +319,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1537794267451</updated>
-      <workItem from="1537794269049" duration="6226000" />
+      <workItem from="1537794269049" duration="6474000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CuratorTest_testUpdateNode - 2018.09.24 at 22h 30m 53s.xml">
-      <configuration name="CuratorTest.testUpdateNode" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CuratorTest_testUpdateNode - 2018.09.24 at 22h 31m 31s.xml">
       <configuration name="CuratorTest.testUpdateNode" configurationId="JUnit" />
     </history-entry>
@@ -361,9 +351,12 @@
     <history-entry file="WatcherTest_test2 - 2018.09.24 at 23h 14m 51s.xml">
       <configuration name="WatcherTest.test2" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="WatcherTest_test2 - 2018.09.24 at 23h 17m 41s.xml">
+      <configuration name="WatcherTest.test2" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6226000" />
+    <option name="totallyTimeSpent" value="6474000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -459,8 +452,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/WatcherTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="59" column="40" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
+        <state relative-caret-position="351">
+          <caret line="45" column="53" lean-forward="true" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1339#1671#0" expanded="true" />
